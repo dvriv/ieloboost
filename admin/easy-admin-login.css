@@ -1,0 +1,18 @@
+body.login                          { background: #ffffff; margin-top: 0; }
+.login h1 a                         { background: url('<?php echo get_template_directory_uri();?>/images/logo.png') no-repeat top center !important; padding-bottom: 0; background-size: auto; width: 320px; }
+.login form                         { background: #fbfbfb; box-shadow: none; margin: 0 0 20px 0; }
+.login #loginform input             { background: #ffffff; box-shadow: none; border-radius: 0; border-color: #D5D5D5; }
+.login #loginform input:focus       { border-color: #D5D5D5; }
+.login #loginform input#wp-submit   { font-weight: bold; text-shadow: none; border: none; border-bottom; border-radius: 5px; }
+.login form .forgetmenot label      { line-height: 27px; }
+
+.login #nav                         { display: block; float: right; margin: 0; padding: 0; }
+.login #backtoblog                  { display: block; float: left; margin: 0; padding: 0; }
+
+.login .message                     { margin-left: 0; }
+
+.login #loginform input#wp-submit { background:#2877ae; border-bottom: 3px solid #0a5990; }
+.login #login_error, .login .message    { background: #f1f1f1;}
+
+.login #nav a, .login #backtoblog a { color: #005ecd !important; }
+.login #nav a:hover, .login #backtoblog a:hover   { color: #005ecd !important; }
